@@ -1,0 +1,144 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.body{
+    background: #05123E;
+    color: white;
+}
+
+.logo{
+    margin-left: 120px;
+    margin-top: 60px;
+    width: 254px;
+    height: 50px;
+}
+
+.login{
+    color: #717070;
+font-size: 24px;
+font-family: Arial;
+font-style: normal;
+font-weight: 600;
+display: flex;
+line-height: normal;
+}
+
+/* Untuk membuat teks sebelah-sebelah */
+.login ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 200px; /* Sesuaikan lebar dengan kebutuhan Anda */
+    margin-left: 130px; 
+    margin-top: 40px;
+    padding: 0;    
+}
+
+/* Garis bawah di bawah teks */
+.login ul li {
+    position: relative;
+}
+
+.login ul li::after {
+    content: "";
+    position: absolute;
+    bottom: -8px; /* Atur posisi dari bawah */
+    left: 0;
+    width: 100%; /* Lebar garis sesuai dengan teks */
+    height: 0.5px; /* Tinggi garis */
+    background-color: black; /* Warna garis */
+}
+
+/* Untuk Sign in */
+.login ul .signin::after {
+    background-color: #FCBE05;
+    stroke-width: 10px;
+    width: 90px;
+    stroke: #ffffff;
+}
+
+.signin{
+    color: white;
+}
+
+/* Untuk Sign up */
+.login ul .signup::after {
+    width: 90px;
+    background-color: #717070;
+}
+
+.cna{
+    color: #FFF;
+font-size: 64px;
+margin-left: 130px; 
+margin-top: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+/* ... (aturan CSS sebelumnya) */
+
+.login .form-control {
+    background-color: #333645;
+    border: none;
+    height: 80px;
+    margin-left: 130px;
+    width: 662px;
+    border-radius: 20px;
+    margin-top: 70px;
+    box-sizing: border-box; /* Menghindari agar padding tidak memperbesar elemen */
+}
+
+.form-control p {
+    margin: 0; 
+    color: white;
+}
+
+/* ... (aturan CSS sebelumnya) */
+
+.form-control input {
+    width: calc(100% - 40px); /* Lebar input dikurangi dengan total padding kiri dan kanan (20px + 20px) */
+    padding: 10px; /* Atur padding sesuai dengan kebutuhan */
+    border: none;
+    margin-left: 8px;
+    border-radius: 3px;
+    background: transparent; /* Mengubah latar belakang menjadi transparan */
+    color: white;
+}
+
+.form-control input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.login2 .form-control {
+    background-color: #333645;
+    border: none;
+    height: 80px;
+    margin-left: 130px;
+    width: 662px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-sizing: border-box; /* Menghindari agar padding tidak memperbesar elemen */
+}
+
+.sb {
+    margin-left: 130px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background: #333645;
+    width: 320px;
+    height: 65px;
+    color: white;
+    border: none; /* Menghilangkan border */
+    outline: none; /* Menghilangkan garis focus saat diklik */
+    cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+    transition: background-color 0.3s; 
+}
+
+.sb:hover {
+    background-color: #555; /* Warna latar belakang saat tombol dihover */
+    box-shadow: none; /* Menghilangkan shadow saat tombol dihover */
+}

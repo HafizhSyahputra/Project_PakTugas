@@ -1,0 +1,170 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    z-index: 2;
+    transform: translateX(350px);
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+    position: relative;
+    color: white;
+}
+
+.carousel{
+    z-index: 0;
+    width: 1519px;
+    height: 653px;
+    transform: translateY(-65px);
+    flex-shrink: 0;
+    display: flex;
+
+}
+
+.carousel2{
+    z-index: 0;
+    width: 19px;
+    height: 53px;
+    transform: translateY(-65px);
+    flex-shrink: 0;
+    display: flex;
+
+}
+
+.order{
+    margin-left: 250px;
+    border-radius: 20px;
+    width: 640px;
+    background: #FFF;
+    box-shadow: 0px 0px 10.6px 0px rgba(0, 0, 0, 0.25);    
+    transform: translateY(-390px);
+    height: 336px;
+    flex-shrink: 0;
+}
+
+.pesawat{
+    margin-left: 270px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+
+}
+.pesawat2{
+    margin-left: 257px;
+    transform: translateY(-28px);
+}
+
+.input-form{
+    margin-left:50px;
+    display: flex;
+    align-items: center; 
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 0px 5.4px 0px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+    padding-left: 20px; 
+}
+
+.input-form input{
+    border: none;
+    padding: 7px;
+    margin-left: 10px; /* Sesuaikan jarak antara icon dan input */
+    background: transparent;
+}
+
+.input-form input::placeholder{
+    color: #465F6B;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Untuk mengatur tata letak ikon */
+.input-form svg {
+    margin-right: 10px; 
+}
+
+/* Input pergi */
+
+.input-form-pergi{
+    margin-top: 20px;
+    margin-left:50px;
+    display: flex;
+    align-items: center; 
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 0px 5.4px 0px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+    padding-left: 20px; 
+}
+
+.input-form-pergi input, select{
+    border: none;
+    padding: 7px;
+    margin-left: 10px; 
+    background: transparent;
+}
+
+.input-form-pergi svg{
+    margin: 10px;
+}
+
+.input-form-seat{
+    margin-top: 20px;
+    margin-left:50px;
+    display: flex;
+    align-items: center; 
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 0px 5.4px 0px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+    padding-left: 30px; 
+}
+
+.input-form-seat input, select{
+    border: none;
+    padding: 7px;
+    margin-left: 12px; 
+    background: transparent;
+}
+
+.submit{
+    border-radius: 0px 25px 25px 0px;
+    background: #220059;
+    padding: 3px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 6.5px 0px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s, color 0.3s; 
+
+}
+
+.submit input {
+    padding-right: 20px;
+}
+/* Efek hover */
+.submit:hover {
+    background-color: #555; 
+    color: white; 
+    cursor: pointer; 
+}
+
+.carousel2 {
+    width: 70%; /* Mengatur lebar carousel */
+    margin: 0 auto; /* Mengatur agar berada di tengah */
+}
+
+.carousel-inner2 img {
+    width: 100%; /* Mengatur agar gambar di dalam carousel mengisi lebar */
+    height: auto; /* Biarkan tinggi mengikuti proporsi gambar */
+}
+
+

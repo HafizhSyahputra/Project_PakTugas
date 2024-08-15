@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../PHP"
+		},
+		{
+			"path": "../../../Users/LENOVO/Documents/RPL/HTML/Special"
+		},
+		{
+			"path": "../../../Users/LENOVO/Documents/RPL/HTML/Restaurant"
+		},
+		{
+			"path": "../../../Users/LENOVO/Documents/RPL/HTML/Kasir"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Kasir"
+	}
+}
